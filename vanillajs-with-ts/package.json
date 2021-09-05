@@ -1,0 +1,25 @@
+{
+  "name": "todo-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server .",
+    "compile": "rm dist/bundle.js.map; rm dist/bundle.js; ./node_modules/.bin/tsc --project ./tsconfig.json",
+    "watch": "rm dist/bundle.js.map; rm dist/bundle.js; ./node_modules/.bin/tsc --watch --project ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-kingeunji:sim-eunji/recipe-book-with-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2",
+    "http-server": "^0.9.0",
+    "systemjs": "^0.19.38"
+  }
+}

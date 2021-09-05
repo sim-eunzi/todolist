@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MVC with Vanilla.JS</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div>
+    <header>
+      <h2 class="container">투두리스트</h2>
+    </header>
+
+    <div class="container">
+      <form>
+        <input id="todo-input" type="text" placeholder="할일을 입력하세요" autofocus>
+        <button type="reset" class="btn-reset"></button>
+      </form>
+
+      <div class="content">
+        <ul id="todo-list">
+          <li class="empty">
+            Todo is not found.
+          </li>
+        </ul>
+      </div>
+
+      <small id="todo-stat"></small>
+
+    </div>
+
+  </div>
+  <script type="text/javascript" src="./node_modules/systemjs/dist/system.js"></script>
+  <script type="text/javascript" src="./dist/bundle.js"></script>
+  <script type="text/javascript">
+    System.import('app');
+  </script>
+</body>
+
+</html>
