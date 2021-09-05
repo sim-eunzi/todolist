@@ -1,0 +1,19 @@
+{
+  "todoList": [
+    {
+      "id": 0,
+      "title": "타입스크립트 공부",
+      "status": "active"
+    },
+    {
+      "id": 1,
+      "title": "TDD 공부",
+      "status": "clear"
+    },
+    {
+      "id": 2,
+      "title": "리액트 공부",
+      "status": "active"
+    }
+  ]
+}
